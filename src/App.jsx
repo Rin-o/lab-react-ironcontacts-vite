@@ -25,8 +25,8 @@ function App() {
   };
 
   const removeButton = (id) => {
-    const newArray = contacts.filter(a =>
-      a.id !== id
+    const newArray = contacts.filter(contact =>
+      contact.id !== id
 
     )
 
